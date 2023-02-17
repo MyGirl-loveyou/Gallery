@@ -5,4 +5,4 @@ body {margin: 0; font-family: sans-serif; background-color: #f5f6f7}
 .gallery {display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; padding: 20px 10px; max-width: 1400px; margin: 0 auto; column-gap: 16px; grid-row-gap: 16px; border-radius: 15px;}
 .gallery::after {content: ""; width: 350px}
 .glow {width: 50%; !important} 
-.iframe {object-fit: contain}
+.iframe {object-fit: cover}
